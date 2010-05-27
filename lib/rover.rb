@@ -7,7 +7,6 @@ class Rover
     @x_pos = $1.to_i || 0
     @y_pos = $2.to_i || 0
     @orientation = $3 || 'N'
-
   end
 
   def process
